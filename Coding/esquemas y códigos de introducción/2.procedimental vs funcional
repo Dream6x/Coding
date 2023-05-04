@@ -1,0 +1,26 @@
+// Suma Procedimental *La procedimental especifica lo que el codigo ejecutara en 1 ocasion
+let suma = 0
+
+for (let i = 1; i <= 10; i++) {
+	suma = suma + i
+}
+
+// suma = 55
+
+///////////////////////////
+
+// Suma funcional *Se define una funcion que podremos ejecutar las veces que queramos a lo largo del programa sin necesidad de volver a escribir todo el codigo
+// 1 - Definimos la funcion
+function sumar_los_diez_primeros_enteros() {
+	let suma = 0
+
+	for (let i = 1; i<= 10; i++) {
+		suma = suma + i
+	}	
+
+	return suma
+}
+
+// 2 - Utilizamos la funcion
+let suma = sumar_los_diez_primeros_enteros()
+// suma = 55

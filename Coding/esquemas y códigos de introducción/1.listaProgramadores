@@ -1,0 +1,12 @@
+3#33#‹3‹£#‹‹3‹‹##3listaprogramadores
+const listaProgramadores = ["Alexis", "Leonela", "Marbella"]
+
+let nombres = []
+
+//Programacion Imperativa
+listaProgramadores.forEach((programador, posicion)=> {
+	nombres[posicion] = programador
+})
+
+// Programacion declarativa
+Let nombres = [...listaProgramadores]
